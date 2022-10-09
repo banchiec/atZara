@@ -6,10 +6,6 @@ export const ContentHeader = styled.div`
 	align-items: center;
 	padding: 10px 5px;
 	border-bottom: 1px solid whitesmoke;
-	/* .header {
-		display: flex;
-		flex-direction: row;
-	} */
 `
 
 export const BranchHeader = styled.div`
@@ -18,16 +14,5 @@ export const BranchHeader = styled.div`
 		text-decoration: none;
 		font-weight: 500;
 		color: blue;
-	}
-`
-export const Menu = styled.div`
-	font-size: 1.4em;
-	svg {
-		padding: 0 5px;
-	}
-	@media (min-width: 768px) {
-		display: none;
-		svg {
-		}
 	}
 `
