@@ -1,15 +1,15 @@
-import HomePage from '../pages/HomeScreen/HomeScreen'
+import HomeScreen from '../pages/HomeScreen/HomeScreen'
 import * as PATHS from '../utils/paths'
 
 const routes = () => {
 	return [
 		{
 			path: PATHS.HOMEPAGE,
-			element: <HomePage />,
+			element: <HomeScreen />,
 		},
 		{
 			path: PATHS.DETAILPOSTCAST,
-			element: <HomePage />,
+			element: <HomeScreen />,
 		},
 	]
 }
