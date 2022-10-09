@@ -1,4 +1,4 @@
-import HomePage from '../pages/HomeScreen'
+import HomePage from '../pages/HomeScreen/HomeScreen'
 import * as PATHS from '../utils/paths'
 
 const routes = () => {
