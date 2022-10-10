@@ -1,0 +1,4 @@
+{
+	"presets": [["@babel/preset-react"]],
+	"plugin": ["@babel/plugin-transform-react-jsx-self"]
+}
