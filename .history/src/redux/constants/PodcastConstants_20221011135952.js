@@ -1,0 +1,1 @@
+export const PODCAST_LIST_LOADING = 'POD'
