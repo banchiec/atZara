@@ -2707,7 +2707,7 @@
   "resolved" "https://registry.npmjs.org/axe-core/-/axe-core-4.4.3.tgz"
   "version" "4.4.3"
 
-"axios@^1.1.2":
+"axios@^1.1.2", "axios@>= 0.13.0":
   "integrity" "sha512-bznQyETwElsXl2RK7HLLwb5GPpOLlycxHCtrpDR/4RqqBzjARaOTo3jz4IgtntWUYee7Ne4S8UHd92VCuzPaWA=="
   "resolved" "https://registry.npmjs.org/axios/-/axios-1.1.2.tgz"
   "version" "1.1.2"
@@ -6342,6 +6342,11 @@
   "version" "0.5.6"
   dependencies:
     "minimist" "^1.2.6"
+
+"moxios@^0.4.0":
+  "integrity" "sha512-r+7DOsTcoTAwY6TGIDtjeTEBXMW8aGgk74MfASOC1tgYXD8Kq+cnqQHUdMnvfjf/CK7Pg/Wo52ohqy5zlyv9XQ=="
+  "resolved" "https://registry.npmjs.org/moxios/-/moxios-0.4.0.tgz"
+  "version" "0.4.0"
 
 "ms@^2.1.1", "ms@2.1.2":
   "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
