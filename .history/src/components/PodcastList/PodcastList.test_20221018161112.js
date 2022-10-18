@@ -1,0 +1,3 @@
+describe('Show component', () => {
+	it('')
+})
