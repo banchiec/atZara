@@ -17,6 +17,7 @@ const HomeScreen = () => {
 		dispatch(getPodcastList())
 	}, [])
 
+	console.log(loadingP);
 	useEffect(() => {
 		if (successPodcastList) {
 			setPodcasts(podcastList)
@@ -25,7 +26,7 @@ const HomeScreen = () => {
 
 	return (
 		<ContentHeader>
-			{loadingPodcastList ? <Loader /> : <PodcastList podcasts={podcasts} />}
+			{loadingPodcastList ? <Loader/> : <PodcastList podcasts={podcasts} />}
 		</ContentHeader>
 	)
 }

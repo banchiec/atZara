@@ -10,6 +10,6 @@ describe('Checking render App', () => {
 	test('renders route HomeScreen', () => {
 		const history = createMemoryHistory('/')
 		history.push('/')
-		render(<Router history={history}></Router>)
+		render(<Router history={history}>{/* <HomeScreen /> */}</Router>)
 	})
 })

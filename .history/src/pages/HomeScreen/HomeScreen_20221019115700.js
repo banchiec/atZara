@@ -19,7 +19,11 @@ const HomeScreen = () => {
 
 	useEffect(() => {
 		if (successPodcastList) {
-			setPodcasts(podcastList)
+			try {
+				setPodcasts(podcastList)
+			} catch (error) {
+				console.log(error.message)
+			}
 		}
 	}, [podcastList, successPodcastList])
 

@@ -17,6 +17,7 @@ const HomeScreen = () => {
 		dispatch(getPodcastList())
 	}, [])
 
+	console.log(loadingPodcastList)
 	useEffect(() => {
 		if (successPodcastList) {
 			setPodcasts(podcastList)
@@ -29,4 +30,5 @@ const HomeScreen = () => {
 		</ContentHeader>
 	)
 }
+
 export default HomeScreen

@@ -6,10 +6,9 @@ import { store } from './redux/store'
 import HomeScreen from './pages/HomeScreen/HomeScreen'
 
 const render = (component) => rtlRender(<Provider store={store}>{component}</Provider>)
-describe('Checking render App', () => {
-	test('renders route HomeScreen', () => {
-		const history = createMemoryHistory('/')
-		history.push('/')
-		render(<Router history={history}></Router>)
-	})
+describe('Checking render App ')
+test('renders route HomeScreen', () => {
+	const history = createMemoryHistory('/')
+	history.push('/')
+	render(<Router history={history}>{/* <HomeScreen /> */}</Router>)
 })

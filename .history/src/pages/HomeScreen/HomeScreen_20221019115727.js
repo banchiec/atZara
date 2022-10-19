@@ -19,7 +19,6 @@ const HomeScreen = () => {
 
 	useEffect(() => {
 		if (successPodcastList) {
-			setPodcasts(podcastList)
 		}
 	}, [podcastList, successPodcastList])
 

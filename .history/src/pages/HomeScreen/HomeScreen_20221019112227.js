@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react'
 import { ContentHeader } from '../../components/Header/headerStyled'
 import { getPodcastList } from '../../redux/reducers/PodcastListReducer'
 import PodcastList from '../../components/PodcastList/PodcastList'
-import Loader from '../../components/Loader/Loader'
 
 const HomeScreen = () => {
 	const dispatch = useDispatch()
@@ -25,7 +24,7 @@ const HomeScreen = () => {
 
 	return (
 		<ContentHeader>
-			{loadingPodcastList ? <Loader /> : <PodcastList podcasts={podcasts} />}
+			{loadingPodcastList ? <h1>Loader</h1> : <PodcastList podcasts={podcasts} />}
 		</ContentHeader>
 	)
 }

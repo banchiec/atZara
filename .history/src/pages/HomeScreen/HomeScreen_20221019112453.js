@@ -25,7 +25,7 @@ const HomeScreen = () => {
 
 	return (
 		<ContentHeader>
-			{loadingPodcastList ? <Loader /> : <PodcastList podcasts={podcasts} />}
+			{loadingPodcastList ? <Loader/> : <PodcastList podcasts={podcasts} />}
 		</ContentHeader>
 	)
 }

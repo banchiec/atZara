@@ -17,6 +17,7 @@ const HomeScreen = () => {
 		dispatch(getPodcastList())
 	}, [])
 
+	console.log(successPodcastList)
 	useEffect(() => {
 		if (successPodcastList) {
 			setPodcasts(podcastList)
